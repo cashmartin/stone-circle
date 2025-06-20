@@ -36,7 +36,7 @@ export default function Contact() {
           gutterBottom
           sx={{ color: 'text.primary' }}
         >
-          email: stone-circle-email-adress-here
+          email: standingstonecircle@gmail.com
         </Typography>
         <Typography
           variant="body1"

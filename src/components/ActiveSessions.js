@@ -42,7 +42,7 @@ export default function ActiveSessions() {
 
           Limit of 12 participants<br />
 
-          To reserve your place, sign up by emailing stone-circle-email-adress-here<br />
+          To reserve your place, sign up by emailing standingstonecircle@gmail.com<br />
 
           Bring your chosen stone.<br /><br />
 

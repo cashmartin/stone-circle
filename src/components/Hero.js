@@ -37,7 +37,7 @@ export default function Hero() {
               display: 'flex',
               flexDirection: { xs: 'column', sm: 'column', md: 'row' },
               alignItems: 'center',
-              fontSize: 'clamp(3rem, 10vw, 3.5rem)',
+              fontSize: { xs: 'clamp(2rem, 8vw, 2.5rem)' , sm: 'clamp(3rem, 10vw, 3.5rem)' },
               marginBottom: '10px',
             }}
           >
