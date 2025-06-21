@@ -13,7 +13,7 @@ import RecordVoiceOverRoundedIcon from '@mui/icons-material/RecordVoiceOverRound
 
 import StandingStonePhoto from '../images/mom-center.jpg';
 import TherapyRoomPhoto from '../images/moms-therapy-room.jpg';
-import SpeakerPhoto from '../images/mom-distance.jpg';
+import SpeakerPhoto from '../images/mom-inspo-speaker.jpg';
 
 const items = [
   {
