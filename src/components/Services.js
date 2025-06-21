@@ -12,7 +12,7 @@ import SpaRoundedIcon from '@mui/icons-material/SpaRounded';
 import RecordVoiceOverRoundedIcon from '@mui/icons-material/RecordVoiceOverRounded';
 
 import StandingStonePhoto from '../images/mom-center.jpg';
-import TherapyRoomPhoto from '../images/ruth-tree-cropped.JPG';
+import TherapyRoomPhoto from '../images/moms-therapy-room.jpg';
 import SpeakerPhoto from '../images/mom-distance.jpg';
 
 const items = [
@@ -34,8 +34,8 @@ const items = [
     icon: <RecordVoiceOverRoundedIcon />,
     title: 'Inspirational Speaker',
     description:
-      '* Guest Speaking Engagements — I travel to speak at businesses, non-profits, gatherings, and community groups. My public speaking offers humor, inspiration, energy, and connection. I tailor my topic around the theme of your' +
-      'event. I don’t just speak. I energize. I inspire. I entertain. I stir the room with laughter, story, and spirit. If you need a speaker who can light up a space and bring people together, I am the person you need.',
+      '* Guest Speaking Engagements — I travel to speak at businesses, non-profits, gatherings, and community groups. My public speaking offers humor, inspiration, energy, and connection. I tailor my topic around the theme of your ' +
+      'event. I don\'t just speak. I energize. I inspire. I entertain. I stir the room with laughter, story, and spirit. If you need a speaker who can light up a space and bring people together, I am the person you need.',
     imageLight: `url(${SpeakerPhoto})`,
   },
 ];
