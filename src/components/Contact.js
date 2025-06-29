@@ -44,8 +44,7 @@ export default function Contact() {
         >
           Begin your spiritual journey with Reverend Dr. Renae Koehler. Schedule a session, join a course,
           or inquire about upcoming retreats through this website. All offerings are available for online
-          booking, and Zoom appointments are offered for those near and far.<br /> <br />
-          Coming soon: Book sessions through Calendly!
+          booking, and Zoom appointments are offered for those near and far.
         </Typography>
         <Box sx={{ marginTop: '50px' }}>
           <img src={StoneCirclePhoto} alt='large standing stone circle' style={{maxWidth: '100%', height: 'auto', borderRadius: '7px', boxShadow: '0 0 12px 8px hsla(220, 25%, 80%, 0.2)', outline: '6px solid', outlineColor: 'hsla(220, 25%, 80%, 0.2)', }} />

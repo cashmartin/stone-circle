@@ -79,7 +79,7 @@ export default function TopBar() {
               </Button>
               <Button variant="text" color="info" size="small"  onClick={() => document.getElementById('activeSessions')?.scrollIntoView({ behavior: 'smooth' })} sx={{ marginRight: '5px' }}>
                 <Typography color='textPrimary' variant='h7'>
-                  Upcoming&nbsp;Sessions
+                  Upcoming&nbsp;Events
                 </Typography>
               </Button>
               <Button variant="text" color="info" size="small"  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} sx={{ minWidth: 0 }}>
@@ -127,7 +127,7 @@ export default function TopBar() {
                 <MenuItem onClick={() => {document.getElementById('inspiration')?.scrollIntoView({ behavior: 'smooth' }); setOpen(false);}}>Inspiration</MenuItem>
                 <MenuItem onClick={() => {document.getElementById('stoneCircle')?.scrollIntoView({ behavior: 'smooth' }); setOpen(false);}}>Stone&nbsp;Circle</MenuItem>
                 <MenuItem onClick={() => {document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' }); setOpen(false);}}>Services</MenuItem>
-                <MenuItem onClick={() => {document.getElementById('activeSessions')?.scrollIntoView({ behavior: 'smooth' }); setOpen(false);}}>Upcoming&nbsp;Sessions</MenuItem>
+                <MenuItem onClick={() => {document.getElementById('activeSessions')?.scrollIntoView({ behavior: 'smooth' }); setOpen(false);}}>Upcoming&nbsp;Events</MenuItem>
                 <MenuItem onClick={() => {document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); setOpen(false);}}>Contact</MenuItem>
               </Box>
             </Drawer>

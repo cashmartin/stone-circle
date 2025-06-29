@@ -136,11 +136,17 @@ export default function Services() {
         </Typography>
         <Typography
           variant="body1"
-          sx={{ color: 'text.secondary', mb: { xs: 2, sm: 4 } }}
+          sx={{ color: 'text.secondary', mb: { xs: 1, sm: 4 } }}
         >
           Here on the prairie—surrounded by the strength of ancient stone and the wide-open
           sky—I offer a space for sacred connection, soulful reflection, and community ritual. Let
           your spirit come home here.
+        </Typography>
+        <Typography
+          variant="body1"
+          sx={{ color: 'text.secondary', mb: { xs: 4, sm: 0 }, display: { xs: 'normal', sm: 'none'}  }}
+        >
+          Click the buttons below to learn about each service.
         </Typography>
       </Box>
       <Box
