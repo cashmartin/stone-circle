@@ -9,6 +9,7 @@ import Services from './components/Services';
 import ActiveSessions from './components/ActiveSessions';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Donate from './components/Donate';
 
 function App() {
   return (
@@ -17,13 +18,15 @@ function App() {
       <Hero/>
       <Divider />
       <div>
+        <ActiveSessions />
+        <Divider />
+        {/* <Donate /> */}
+        <Divider />
         <About/>
         <Inspiration />
         <StoneCircle />
         <Divider />
         <Services />
-        <Divider />
-        <ActiveSessions />
         <Divider />
         <Contact />
         <Footer />

@@ -144,7 +144,7 @@ export default function Services() {
         </Typography>
         <Typography
           variant="body1"
-          sx={{ color: 'text.secondary', mb: { xs: 4, sm: 0 }, display: { xs: 'normal', sm: 'none'}  }}
+          sx={{ color: 'text.secondary', mb: { xs: 4, sm: 0 }, display: { xs: 'normal', sm: 'none' } }}
         >
           Click the buttons below to learn about each service.
         </Typography>

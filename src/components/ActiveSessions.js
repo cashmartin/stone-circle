@@ -10,33 +10,6 @@ import Grid from '@mui/material/Grid';
 
 const upcomingEvents = [
   {
-    name: 'Rocks & Stones Morning Ceremony',
-    time: 'Tuesday, July 1, 2025 • 7AM-8AM',
-    text:
-      "Gather in the hush of early light among the Standing Stones, where ancient voices sing. In this sacred circle, we will listen to the wisdom of rocks—keepers of Earth's memory. " +
-      "Bring a stone that calls to you, or choose one from the circle. If sitting on the ground is a hardship, I will provide a lawn chair for you. Come to learn about the importance " +
-      "of rocks and stones throughout human history in all world religions.",
-  },
-  {
-    name: 'Full Moon Angel Ceremony',
-    time: 'Thursday, July 10, 2025 • 10PM-11PM',
-    text:
-      "Under the shimmering gaze of the full moon, we gather to lift the veil between us and " +
-      "the celestial ones. The angels—those luminous whisperers—who are our guardians. " +
-      "Come and learn their names, their gifts, their sacred nudges. Come to the standing " +
-      "stone circle. Bring your openness, your wonder, and perhaps a wish tucked close to " +
-      "your heart.",
-  },
-  {
-    name: 'Angels Ceremony (Morning Edition)',
-    time: 'Thursday, July 17, 2025 • 7AM-8AM',
-    text:
-      "In the dewy hush of the new morning, we turn our ears to the rustle of angel wings. As " +
-      "light breaks upon the standing stones, we call to the messengers who speak in dreams, " +
-      "nudges, and wind-blown blessings. A circle of light, a moment of quiet awe. Come " +
-      "awaken with the angels.",
-  },
-  {
     name: 'Delta Aquarids Meteor Shower Viewing Ceremony',
     time: 'Monday, July 30, 2025 • 11PM-Midnight',
     text:
@@ -107,6 +80,13 @@ const upcomingEvents = [
       "you. Come home to yourself.",
   },
   {
+    name: 'Fear to Freedom: A Path through Nature',
+    time: 'Saturday, September 20, 2025 • 1PM-3PM',
+    text:
+      "Led by Jane Baird Tinkler, Certified Nature Therapist. " +
+      "Learn about the Elemental Courage that helps us find the stillness beneath the fear during these uncertain times. Experience calm among the stones and sky.",
+  },
+  {
     name: 'Autumn Equinox Ceremony: Balance of Day and Night',
     time: 'Monday, September 22, 2025 • 7PM-8PM',
     text:
@@ -147,7 +127,8 @@ export default function StoneCircle() {
           Upcoming Events
         </Typography>
         <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-          Each event costs $42 per person (scholarships are available, if needed.) You are
+          Events held at the Standing Stone Circle are made possible by the generous support of donations.
+          Everyone is welcome, and no one is turned away. You are
           invited to wear clothing that you are comfortable in as we sit upon the earth - I will
           provide a lawn chair for you, if needed. You will be invited to take off your shoes before
           entering the soft clover inside of the circle. Limit of 20 people per ceremony.<br /><br />
@@ -188,6 +169,17 @@ export default function StoneCircle() {
           </Grid>
         ))}
       </Grid>
+      <Typography
+          component="h2"
+          variant="h4"
+          gutterBottom
+          sx={{ color: 'text.primary' }}
+        >
+          Book Your Own Events
+        </Typography>
+      <Typography variant="body1" sx={{ color: 'text.secondary' }}>
+        Family photos | Graduation photos | Private events | Weddings | Baby Blessings | Anniversaries | Memorials | Birthdays
+      </Typography>
     </Container>
   );
 }
