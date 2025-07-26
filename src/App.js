@@ -9,7 +9,7 @@ import Services from './components/Services';
 import ActiveSessions from './components/ActiveSessions';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-//import Donate from './components/Donate';
+import Donate from './components/Donate';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <div>
         <ActiveSessions />
         <Divider />
-        {/* <Donate /> */}
+        <Donate />
         <Divider />
         <About/>
         <Inspiration />

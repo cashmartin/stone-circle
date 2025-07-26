@@ -7,11 +7,10 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 
-
 const upcomingEvents = [
   {
     name: 'Delta Aquarids Meteor Shower Viewing Ceremony',
-    time: 'Monday, July 30, 2025 • 11PM-Midnight',
+    time: 'Wednesday, July 30, 2025 • 11PM-Midnight',
     text:
       "When the world slumbers, we gather to the sound of a drum circle and then lay down on " +
       "the clover inside of the standing stone circle to watch the heavens dance. Join us under " +
@@ -169,17 +168,6 @@ export default function StoneCircle() {
           </Grid>
         ))}
       </Grid>
-      <Typography
-          component="h2"
-          variant="h4"
-          gutterBottom
-          sx={{ color: 'text.primary' }}
-        >
-          Book Your Own Events
-        </Typography>
-      <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-        Family photos | Graduation photos | Private events | Weddings | Baby Blessings | Anniversaries | Memorials | Birthdays
-      </Typography>
     </Container>
   );
 }
