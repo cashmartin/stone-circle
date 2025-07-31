@@ -10,7 +10,7 @@ import Grid from '@mui/material/Grid';
 const upcomingEvents = [
   {
     name: 'The Druid Lammas: Morning Harvest Ceremony',
-    time: 'Saturday, August 2, 2025 • 7AM-8AM',
+    time: 'Saturday, August 2, 2025 • 9AM-10AM',
     text:
       "Come, celebrate the turning of the wheel! Lammas brings the first fruits, the golden " +
       "grain, the bread of gratitude. Inside of the standing stone circle, we'll bless what we've " +
@@ -19,7 +19,7 @@ const upcomingEvents = [
   },
   {
     name: 'Full Moon Ceremony: The Hermetica',
-    time: 'Saturday, August 9, 2025 • 9AM-10AM',
+    time: 'Saturday, August 9, 2025 • 10PM-11PM',
     text:
       "The moon will rise like a silver oracle, and we shall gather inside of the standing stone " +
       "circle to listen to the stars and scriptures of the soul. In this full moon gathering, we will " +
