@@ -9,16 +9,6 @@ import Grid from '@mui/material/Grid';
 
 const upcomingEvents = [
   {
-    name: 'Delta Aquarids Meteor Shower Viewing Ceremony',
-    time: 'Wednesday, July 30, 2025 • 11PM-Midnight',
-    text:
-      "When the world slumbers, we gather to the sound of a drum circle and then lay down on " +
-      "the clover inside of the standing stone circle to watch the heavens dance. Join us under " +
-      "the deep indigo sky as meteors slice through the night like ancient fire-script. Lay back, " +
-      "breathe in the cosmos, and let the silence of starlight teach you something you didn't " +
-      "know you were longing for.",
-  },
-  {
     name: 'The Druid Lammas: Morning Harvest Ceremony',
     time: 'Saturday, August 2, 2025 • 7AM-8AM',
     text:
@@ -29,7 +19,7 @@ const upcomingEvents = [
   },
   {
     name: 'Full Moon Ceremony: The Hermetica',
-    time: 'Saturday, August 9, 2025 • 10PM-11PM',
+    time: 'Saturday, August 9, 2025 • 9AM-10AM',
     text:
       "The moon will rise like a silver oracle, and we shall gather inside of the standing stone " +
       "circle to listen to the stars and scriptures of the soul. In this full moon gathering, we will " +
@@ -48,7 +38,7 @@ const upcomingEvents = [
   },
   {
     name: 'The Hermetica Morning Class',
-    time: 'Saturday, August 23, 2025. 7AM-8AM',
+    time: 'Saturday, August 23, 2025. 9AM-10AM',
     text:
       "We enter the standing stone circle to explore the Hermetica—texts of deep insight, " +
       "where mystics meet mystery. Bring your curiosity, your questions, your readiness to " +
