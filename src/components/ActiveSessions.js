@@ -143,7 +143,7 @@ export default function StoneCircle() {
       </Box>
       <Grid container spacing={2}>
         {filteredEvents.map((event, index) => (
-          <Grid size={{ xs: 12, sm: 6 }} key={index} sx={{ display: 'flex' }}>
+          <Grid size={{ xs: 12, sm: 6, lg: 4 }} key={index} sx={{ display: 'flex' }}>
             <Card
               variant="outlined"
               sx={{
