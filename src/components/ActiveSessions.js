@@ -85,6 +85,12 @@ const upcomingEvents = [
       ""
   },
   {
+    name: 'Nature Therapy Session: Woven in Earth, Air, Fire, and Water - Led by Jane Baird Tinkler, Nature Therapist',
+    time: new Date(2025, 10, 22, 10, 0), // Nov 22, 2025, 10:00 AM
+    text:
+      ""
+  },
+  {
     name: 'Supermoon - a Time to Revitalize',
     time: new Date(2025, 11, 4, 19, 0), // Dec 4, 2025, 7:00 PM
     text:
